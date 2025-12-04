@@ -7,4 +7,9 @@ spring:
     name: 251204_sb
   profiles:
     active: dev
-# dev, prod 공통 설정
+  # dev, prod 공통 설정
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
